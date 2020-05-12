@@ -19,13 +19,13 @@ namespace Crypt
 
         private void btnGo_Click(object sender, EventArgs e)
         {
-            Algorithm algorithm = new Algorithm();
             try
             {
-                algorithm.Crypt(tbSource.ToString(),
-                                tbTarget.ToString(),
-                                tbPassword.ToString(),
-                                tbSeed.ToString());
+                Algorithm.Crypt(tbSource.Text,
+                                tbTarget.Text,
+                                tbPassword.Text,
+                                tbSeed.Text);
+
             }
             catch (Exception exc)
             {
