@@ -90,8 +90,8 @@
             this.lblInfo.Name = "lblInfo";
             this.lblInfo.Size = new System.Drawing.Size(570, 75);
             this.lblInfo.TabIndex = 8;
-            this.lblInfo.Text = "Welcome to Crypt. Please enter required data below, then press the big red button" +
-    " to commence encryption.";
+            this.lblInfo.Text = "Welcome to Crypt. Please enter required data below, then press the appropriate bu" +
+    "tton to commence encryption or decryption.";
             // 
             // lblSource
             // 
@@ -206,7 +206,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(945, 565);
+            this.ClientSize = new System.Drawing.Size(943, 587);
             this.Controls.Add(this.btnEncrypt);
             this.Controls.Add(this.lblPWConfirm);
             this.Controls.Add(this.nudSeed);
@@ -224,6 +224,7 @@
             this.Controls.Add(this.tbPWConfirm);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Crypt";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crypt";
             ((System.ComponentModel.ISupportInitialize)(this.nudSeed)).EndInit();
             this.ResumeLayout(false);

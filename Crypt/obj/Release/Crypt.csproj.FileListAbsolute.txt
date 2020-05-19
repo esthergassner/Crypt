@@ -1,0 +1,10 @@
+C:\Users\egass\source\repos\Crypt\Crypt\bin\Release\Crypt.exe.config
+C:\Users\egass\source\repos\Crypt\Crypt\bin\Release\Crypt.exe
+C:\Users\egass\source\repos\Crypt\Crypt\bin\Release\Crypt.pdb
+C:\Users\egass\source\repos\Crypt\Crypt\obj\Release\Crypt.csprojAssemblyReference.cache
+C:\Users\egass\source\repos\Crypt\Crypt\obj\Release\Crypt.Crypt.resources
+C:\Users\egass\source\repos\Crypt\Crypt\obj\Release\Crypt.Properties.Resources.resources
+C:\Users\egass\source\repos\Crypt\Crypt\obj\Release\Crypt.csproj.GenerateResource.cache
+C:\Users\egass\source\repos\Crypt\Crypt\obj\Release\Crypt.csproj.CoreCompileInputs.cache
+C:\Users\egass\source\repos\Crypt\Crypt\obj\Release\Crypt.exe
+C:\Users\egass\source\repos\Crypt\Crypt\obj\Release\Crypt.pdb

@@ -43,7 +43,7 @@ namespace Crypt
 
         private void btnBrowseTgt_Click(object sender, EventArgs e)
         {
-            fbdTarget.RootFolder = Environment.SpecialFolder.Desktop;
+            fbdTarget.RootFolder = Environment.SpecialFolder.MyDocuments;
             fbdTarget.ShowDialog();
             tbTarget.Text = fbdTarget.SelectedPath.ToString();
         }
