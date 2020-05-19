@@ -4,7 +4,7 @@ An enhanced bitwise encryption algorithm created for senior honors thesis projec
 
 Faculty Supervisor: Dr. Andrew Katz
 
-#TODO:
+# TODO:
 
 <ul>
   <li>Customization for different file types</li>
