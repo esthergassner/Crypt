@@ -76,12 +76,12 @@ namespace Crypt
                                 (int)nudSeed.Value, extension);
                 Cursor.Current = Cursors.Default;
 
-                var result = MessageBox.Show("Encryption complete. Exit program?",
+                var result = MessageBox.Show("Encryption complete. View  file?",
                                 "Success",
                                 MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
-                        Application.Exit();
+                    System.Diagnostics.Process.Start(@target);
                 }
             }
             catch (Exception exc)
